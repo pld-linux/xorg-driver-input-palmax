@@ -1,12 +1,12 @@
 Summary:	X.org input driver for Palmax (TR88L803) touchscreen devices
 Summary(pl):	Sterownik wej¶ciowy X.org dla ekranów dotykowych Palmax (TR88L803)
 Name:		xorg-driver-input-palmax
-Version:	1.0.0.3
+Version:	1.0.0.5
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/driver/xf86-input-palmax-%{version}.tar.bz2
-# Source0-md5:	fd969f63642527dcfbbef709a5d22cba
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/driver/xf86-input-palmax-%{version}.tar.bz2
+# Source0-md5:	87bc39528fd3a63a989ba853f681ef6a
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -55,6 +55,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_libdir}/xorg/modules/input/palmax_drv.so
 %{_mandir}/man4/palmax.4*
