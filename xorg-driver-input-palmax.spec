@@ -1,5 +1,5 @@
 Summary:	X.org input driver for Palmax (TR88L803) touchscreen devices
-Summary(pl):	Sterownik wej∂ciowy X.org dla ekranÛw dotykowych Palmax (TR88L803)
+Summary(pl.UTF-8):   Sterownik wej≈õciowy X.org dla ekran√≥w dotykowych Palmax (TR88L803)
 Name:		xorg-driver-input-palmax
 Version:	1.1.0
 Release:	0.1
@@ -24,10 +24,10 @@ X.org input driver for Palmax (TR88L803) touchscreen devices. It
 supports Palmax PD1000, Palmax PD1100 and in theory any other system
 using a TR88L803 wired to a serial port.
 
-%description -l pl
-Sterownik wej∂ciowy X.org dla ekranÛw dotykowych Palmax (TR88L803).
-Obs≥uguje ekrany Palmax PD1000, Palmax PD1100 i teoretycznie dowolny
-inny uøywaj±cy uk≥adu TR88L803 pod≥±czonego do portu szeregowego.
+%description -l pl.UTF-8
+Sterownik wej≈õciowy X.org dla ekran√≥w dotykowych Palmax (TR88L803).
+Obs≈Çuguje ekrany Palmax PD1000, Palmax PD1100 i teoretycznie dowolny
+inny u≈ºywajƒÖcy uk≈Çadu TR88L803 pod≈ÇƒÖczonego do portu szeregowego.
 
 %prep
 %setup -q -n xf86-input-palmax-%{version}
