@@ -1,8 +1,9 @@
+# http://lists.x.org/archives/xorg-devel/2009-February/000220.html
 Summary:	X.org input driver for Palmax (TR88L803) touchscreen devices
 Summary(pl.UTF-8):	Sterownik wejściowy X.org dla ekranów dotykowych Palmax (TR88L803)
 Name:		xorg-driver-input-palmax
 Version:	1.2.0
-Release:	3
+Release:	3.1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/driver/xf86-input-palmax-%{version}.tar.bz2
